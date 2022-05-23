@@ -1,0 +1,42 @@
+.hiasan{
+    height: 700px;
+    position: fixed;
+    bottom: 0%;
+    left: -7%;
+}
+.box{
+    /* border: solid #5faf74; */
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 10%;
+    top: 80%;
+    
+}
+.box h2{
+    border-bottom: solid #5faf74 1px;
+    color: #43408F;
+}
+.input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+h5{
+    color: #43408F;
+}
+.tombol{
+    margin-top: 25px;
+    border-radius: 20px;
+    width: 250px;
+    background-color: #FFB198;
+    border: 0ch;
+    color: #43408F;
+}
+.tombol:hover{
+    background-color: #C55039;
+}
+p{
+    color: #C55039;
+}

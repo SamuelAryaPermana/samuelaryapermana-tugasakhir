@@ -1,0 +1,100 @@
+body{
+    background-color: #F9EDD6 !important;
+}
+.jumbotron{
+    background-image: url(../asset/mainmenubg.png);
+    background-size: cover;
+    height: 500px;
+    margin-top: -150px;
+    margin-bottom: 0px !important;
+}
+.tombol{
+    text-transform: uppercase;
+    border-radius: 20px !important;
+    width: 75px !important;
+    color: whitesmoke !important;
+}
+.proses{
+    /* display: flex; */
+}
+.display-4{
+    margin-top: 125px;
+    font-weight: 300;
+}
+.display-4 span{
+    font-weight: 600;
+}
+.form{
+    margin-top: 0px;
+    background-color:#FFECE6;
+    display: flex;
+    text-align: center;
+    /* border-radius: 50px; */
+}
+.ilusdokter img{
+    margin-top: 0% !important;
+    position: relative;
+    bottom: -0px;
+    width: 500px;
+    /* border-radius: 20%; */
+}
+.gender-img{
+    width: 100px;
+}
+.form-box{
+    margin-right: 0%;
+    display: flex;
+    margin-top: 20px;
+    width: 400px;   
+}
+.form-bucket{
+    height: 500;
+    width: 400px;
+    
+    
+}
+#gender-form h5{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+#usia-form h5{
+    margin-right: 75px;
+}
+#berat-form h5{
+    margin-right: 45px;
+}
+#tinggi-form h5{
+    margin-right: 49px;
+    /* background-color: white ; */
+    /* #f1e9a7 */
+}
+.input-box{
+    background-color: #FFECE6;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 150px;   
+}
+.submit-form{
+    width: 20%;
+    position: relative;
+    left: 40%;
+    margin-top: 25px;
+    background-color: #C55039;
+    border-radius: 20px;
+    color: whitesmoke;
+    border: solid #FFB198 1px;
+}
+.result{
+    width: 450px;
+    display: flex;
+}
+.result-desc{
+    margin-top: 125px;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid #C55039 1px;
+    height: 300px;
+    
+}
+

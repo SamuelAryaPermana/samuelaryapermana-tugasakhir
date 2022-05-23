@@ -1,0 +1,78 @@
+.tombol{
+    text-transform: uppercase;
+    border-radius: 17px;
+    width: 75px;
+    color: whitesmoke !important;
+}
+.jumbotron{
+    background-image: url(asset/jumbotron.jpg);
+    background-size: cover;
+    height: 800px;
+    margin-top: -175px;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: -50px;
+}
+.display-4{
+    color: whitesmoke;
+    margin-top: 125px;
+}
+.navbar-brand, .lead{
+    color: whitesmoke !important;
+}
+.info-panel{
+    box-shadow: 0 3px 20px rgba(0,0,0,1);
+    background-color: #DEECDF;
+    border-radius: 12px;
+    margin-top: -125px;
+    
+}
+.fitur {
+    position: relative;
+    left: 35px;
+    width: 200px;
+    border-radius: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.workspace{
+    /* box-shadow: 0 3px 5px rgba(0,0,0,1); */
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+.workspace img{
+    width: 400px;
+    border-radius: 45px;
+    padding: 0%;
+}
+.desc{
+    padding: 0%;
+    margin-top: 125px;
+    position: relative;
+    left: -100px;
+}
+.desc h3{
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.desc h3 span{
+    font-weight: 500;
+}
+.quotes{
+    margin-top: 0%;
+    padding-top:50px ;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    background-color: #FDF9DD;
+}
+hr{
+    margin: 0%;
+}
