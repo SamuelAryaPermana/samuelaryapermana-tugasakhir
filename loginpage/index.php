@@ -29,8 +29,6 @@
                   if (isset($_POST['proseslogin'])) {
                     $user = $_POST['user'];
                     $pass = $_POST['pass'];
-
-                   
     
                     if ($user == 'Samuel' AND $pass == 'arya' ) {
                         $_SESSION['akses']=$user;
