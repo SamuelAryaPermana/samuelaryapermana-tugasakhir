@@ -30,9 +30,7 @@
                     $user = $_POST['user'];
                     $pass = $_POST['pass'];
 
-                    $username_list = array('Samuel', 'Bambang');
-                    $password_list = array('arya', 'hehe');
-
+                   
     
                     if ($user == 'Samuel' AND $pass == 'arya' ) {
                         $_SESSION['akses']=$user;
