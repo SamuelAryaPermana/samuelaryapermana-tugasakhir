@@ -1,4 +1,3 @@
-           
 <!doctype html>
 <?php
     session_start();
@@ -30,14 +29,24 @@
                   if (isset($_POST['proseslogin'])) {
                     $user = $_POST['user'];
                     $pass = $_POST['pass'];
+
+                    $username_list = array('Samuel', 'Bambang');
+                    $password_list = array('arya', 'hehe');
+
     
-                    if ($user == 'samuel' AND $pass == 'arya') {
+                    if ($user == 'Samuel' AND $pass == 'arya' ) {
                         $_SESSION['akses']=$user;
                         header("location:../mainmenu/index.php");
                     }
-                    if($user != 'Samuel' AND $pass != 'arya'):?>
-                        <p>username atau password salah</p>
-                    <?php endif;}?>
+                    elseif($user == 'Bambang' AND $pass == 'hehe'){
+                        $_SESSION['akses']=$user;
+                        header("location:../mainmenu/index.php");
+                    }
+                    else{
+                        echo"<p>username atau password salah</p>";
+                    }
+                }?>
+                   
                     
                   
                   <form method="post" action="<?php $_SERVER['PHP_SELF'];?>">
