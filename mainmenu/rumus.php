@@ -18,29 +18,5 @@ class rumus{
                 break;  
         }
     }
-    // public function saranKal($bmi,$kal){
-    //     if ($bmi<18.5) {
-    //         $kal=$kal+200
-    //         "kurang, $kal"
-    //         return $op;
-    //     }
-    //     elseif($bmi>=18.5 AND $bmi<=22.9) {
-    //         $op ="normal, $kal";
-    //         return $op;
-    //     }
-    //     elseif($bmi>=23 AND $bmi<=29.9) {
-    //         $kal = $kal-200
-    //         $op ="berlebih, $kal";
-    //         return $op;
-    //     }
-    //     else{
-    //         $kal = $kal-300
-    //         $op ="obesitas, $kal";
-    //         return $op;
-
-    //     }
-
-
-    // }
 }
 ?>
